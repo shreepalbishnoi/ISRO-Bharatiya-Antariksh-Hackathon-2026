@@ -1,0 +1,110 @@
+{
+  "target": "TOI-700",
+  "n_candidates": 3,
+  "candidates": [
+    {
+      "candidate_index": 0,
+      "period_days": 6.268417894526302,
+      "duration_hours": 2.5,
+      "depth_ppm": 186.08297077491267,
+      "snr": 25.63880505742537,
+      "significant": true,
+      "features": {
+        "period_days": 6.268417894526302,
+        "duration_hours": 2.5,
+        "depth_ppm": 186.08297077491267,
+        "snr": 25.63880505742537,
+        "bls_power": 39.72633961848321,
+        "odd_even_mismatch": 0.19934275536055182,
+        "secondary_eclipse_ratio": -0.022741361159040872,
+        "shape_metric": 0.9371624382084691,
+        "duration_period_ratio": 0.016617696589378145,
+        "depth": 0.00018608297077491267
+      },
+      "classification": {
+        "predicted_class": "transit",
+        "confidence": 0.5846319444444447,
+        "class_probabilities": {
+          "blend": 0.09416666666666669,
+          "eclipsing_binary": 0.11099305555555557,
+          "other": 0.21020833333333336,
+          "transit": 0.5846319444444447
+        }
+      },
+      "refined_parameters": {
+        "period_days": 6.268417894526302,
+        "period_err_days": 0.0003002448078346401,
+        "t0_bjd_offset": 1325.5023480958869,
+        "t0_err_days": 0.0013354018557360735,
+        "duration_hours": 3.171665211496487,
+        "duration_err_hours": 0.08092061200879945,
+        "depth_ppm": 193.80198518358245,
+        "depth_err_ppm": 7.650557210903846,
+        "depth_fraction": 0.00019380198518358246,
+        "n_transits_observed": 4.447710071547837
+      }
+    },
+    {
+      "candidate_index": 1,
+      "period_days": 17.189079271951464,
+      "duration_hours": 0.5,
+      "depth_ppm": 1004.9068783788929,
+      "snr": 37.57949184565933,
+      "significant": true,
+      "features": {
+        "period_days": 17.189079271951464,
+        "duration_hours": 0.5,
+        "depth_ppm": 1004.9068783788929,
+        "snr": 37.57949184565933,
+        "bls_power": 11.29448180178106,
+        "odd_even_mismatch": 0.9999900489282098,
+        "secondary_eclipse_ratio": -0.006346562901617968,
+        "shape_metric": 0.43014818092024104,
+        "duration_period_ratio": 0.0012120098467012386,
+        "depth": 0.001004906878378893
+      },
+      "classification": {
+        "predicted_class": "eclipsing_binary",
+        "confidence": 0.4850138888888889,
+        "class_probabilities": {
+          "blend": 0.2744852402499461,
+          "eclipsing_binary": 0.4850138888888889,
+          "other": 0.09526475975005388,
+          "transit": 0.1452361111111111
+        }
+      },
+      "refined_parameters": null
+    },
+    {
+      "candidate_index": 2,
+      "period_days": 16.136409093939598,
+      "duration_hours": 1.5,
+      "depth_ppm": 101.8230643955131,
+      "snr": 6.818382062864608,
+      "significant": false,
+      "features": {
+        "period_days": 16.136409093939598,
+        "duration_hours": 1.5,
+        "depth_ppm": 101.8230643955131,
+        "snr": 6.818382062864608,
+        "bls_power": 9.406737793449162,
+        "odd_even_mismatch": 0.568608705087497,
+        "secondary_eclipse_ratio": 0.08283108416060792,
+        "shape_metric": 0.8389338279017943,
+        "duration_period_ratio": 0.003873228525389414,
+        "depth": 0.0001018230643955131
+      },
+      "classification": {
+        "predicted_class": "other",
+        "confidence": 0.40961403687411746,
+        "class_probabilities": {
+          "blend": 0.19817257637822153,
+          "eclipsing_binary": 0.04797321428571427,
+          "other": 0.40961403687411746,
+          "transit": 0.34424017246194666
+        }
+      },
+      "refined_parameters": null
+    }
+  ]
+}

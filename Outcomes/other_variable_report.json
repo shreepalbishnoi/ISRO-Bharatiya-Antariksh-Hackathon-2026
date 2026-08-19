@@ -1,0 +1,37 @@
+{
+  "target": "other_variable",
+  "n_candidates": 1,
+  "candidates": [
+    {
+      "candidate_index": 0,
+      "period_days": 4.069337955863724,
+      "duration_hours": 0.5,
+      "depth_ppm": 123.79127647198078,
+      "snr": 5.439338957857909,
+      "significant": false,
+      "features": {
+        "period_days": 4.069337955863724,
+        "duration_hours": 0.5,
+        "depth_ppm": 123.79127647198078,
+        "snr": 5.439338957857909,
+        "bls_power": 0.0011111092882549604,
+        "odd_even_mismatch": 0.307217367371271,
+        "secondary_eclipse_ratio": -0.1616768171235493,
+        "shape_metric": 0.26354937298976505,
+        "duration_period_ratio": 0.005119587893483627,
+        "depth": 0.00012379127647198077
+      },
+      "classification": {
+        "predicted_class": "other",
+        "confidence": 0.5500262660053604,
+        "class_probabilities": {
+          "blend": 0.4488819628801658,
+          "eclipsing_binary": 0.00011805070557985195,
+          "other": 0.5500262660053604,
+          "transit": 0.0009737204088937623
+        }
+      },
+      "refined_parameters": null
+    }
+  ]
+}

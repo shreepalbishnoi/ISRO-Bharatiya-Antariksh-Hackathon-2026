@@ -1,0 +1,79 @@
+{
+  "target": "transit",
+  "n_candidates": 2,
+  "candidates": [
+    {
+      "candidate_index": 0,
+      "period_days": 3.499299953330222,
+      "duration_hours": 3.0,
+      "depth_ppm": 3612.168949573383,
+      "snr": 113.46322259224574,
+      "significant": true,
+      "features": {
+        "period_days": 3.499299953330222,
+        "duration_hours": 3.0,
+        "depth_ppm": 3612.168949573383,
+        "snr": 113.46322259224574,
+        "bls_power": 0.08336309450246239,
+        "odd_even_mismatch": 0.12278256615121667,
+        "secondary_eclipse_ratio": -0.002890025883060611,
+        "shape_metric": 0.9952619813395137,
+        "duration_period_ratio": 0.03572143047669855,
+        "depth": 0.0036121689495733833
+      },
+      "classification": {
+        "predicted_class": "transit",
+        "confidence": 0.6048154761904763,
+        "class_probabilities": {
+          "blend": 0.0991051791850761,
+          "eclipsing_binary": 0.10975196367206676,
+          "other": 0.18632738095238097,
+          "transit": 0.6048154761904763
+        }
+      },
+      "refined_parameters": {
+        "period_days": 3.499299953330222,
+        "period_err_days": 2.372718701213204e-05,
+        "t0_bjd_offset": 1.1023610186732526,
+        "t0_err_days": 0.00018307491723248387,
+        "duration_hours": 3.5879344273517324,
+        "duration_err_hours": 0.013332625279068932,
+        "depth_ppm": 3819.5820053721877,
+        "depth_err_ppm": 18.98896357558696,
+        "depth_fraction": 0.0038195820053721877,
+        "n_transits_observed": 7.715828982966887
+      }
+    },
+    {
+      "candidate_index": 1,
+      "period_days": 2.864657643842923,
+      "duration_hours": 0.5,
+      "depth_ppm": 108.31414211452346,
+      "snr": 5.483306260493845,
+      "significant": false,
+      "features": {
+        "period_days": 2.864657643842923,
+        "duration_hours": 0.5,
+        "depth_ppm": 108.31414211452346,
+        "snr": 5.483306260493845,
+        "bls_power": 0.0010354659372947088,
+        "odd_even_mismatch": 0.353490051449922,
+        "secondary_eclipse_ratio": -0.2056827735214233,
+        "shape_metric": 0.6399539039442355,
+        "duration_period_ratio": 0.007272538614906012,
+        "depth": 0.00010831414211452346
+      },
+      "classification": {
+        "predicted_class": "other",
+        "confidence": 0.5492239398103897,
+        "class_probabilities": {
+          "blend": 0.4496409776716277,
+          "eclipsing_binary": 0.00011805070557985195,
+          "other": 0.5492239398103897,
+          "transit": 0.001017031812402534
+        }
+      },
+      "refined_parameters": null
+    }
+  ]
+}

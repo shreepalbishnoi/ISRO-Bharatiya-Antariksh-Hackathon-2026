@@ -1,0 +1,110 @@
+{
+  "target": "eclipsing_binary",
+  "n_candidates": 3,
+  "candidates": [
+    {
+      "candidate_index": 0,
+      "period_days": 4.19981332088806,
+      "duration_hours": 3.0,
+      "depth_ppm": 19159.25893633649,
+      "snr": 105.42647825069452,
+      "significant": true,
+      "features": {
+        "period_days": 4.19981332088806,
+        "duration_hours": 3.0,
+        "depth_ppm": 19159.25893633649,
+        "snr": 105.42647825069452,
+        "bls_power": 0.4163002035755001,
+        "odd_even_mismatch": 0.0020118733029477597,
+        "secondary_eclipse_ratio": 0.15654756460532487,
+        "shape_metric": 2.0,
+        "duration_period_ratio": 0.029763227660216208,
+        "depth": 0.01915925893633649
+      },
+      "classification": {
+        "predicted_class": "eclipsing_binary",
+        "confidence": 0.6530416666666667,
+        "class_probabilities": {
+          "blend": 0.0008333333333333333,
+          "eclipsing_binary": 0.6530416666666667,
+          "other": 0.036145833333333335,
+          "transit": 0.3099791666666667
+        }
+      },
+      "refined_parameters": null
+    },
+    {
+      "candidate_index": 1,
+      "period_days": 4.19981332088806,
+      "duration_hours": 2.5,
+      "depth_ppm": 7915.127899373913,
+      "snr": 111.08528588726644,
+      "significant": true,
+      "features": {
+        "period_days": 4.19981332088806,
+        "duration_hours": 2.5,
+        "depth_ppm": 7915.127899373913,
+        "snr": 111.08528588726644,
+        "bls_power": 0.1456074905636481,
+        "odd_even_mismatch": 0.019867035876480733,
+        "secondary_eclipse_ratio": 1.5848248419214837,
+        "shape_metric": 1.8136486390254207,
+        "duration_period_ratio": 0.02480268971684684,
+        "depth": 0.007915127899373913
+      },
+      "classification": {
+        "predicted_class": "eclipsing_binary",
+        "confidence": 0.6171666666666666,
+        "class_probabilities": {
+          "blend": 0.0035833333333333333,
+          "eclipsing_binary": 0.6171666666666666,
+          "other": 0.03989583333333333,
+          "transit": 0.3393541666666667
+        }
+      },
+      "refined_parameters": null
+    },
+    {
+      "candidate_index": 2,
+      "period_days": 1.053203546903127,
+      "duration_hours": 10.0,
+      "depth_ppm": 64.86184600472832,
+      "snr": 21.298621047592224,
+      "significant": true,
+      "features": {
+        "period_days": 1.053203546903127,
+        "duration_hours": 10.0,
+        "depth_ppm": 64.86184600472832,
+        "snr": 21.298621047592224,
+        "bls_power": 0.0037271632584040966,
+        "odd_even_mismatch": 0.0012368862504411274,
+        "secondary_eclipse_ratio": -0.11317907474598561,
+        "shape_metric": 0.741326342343104,
+        "duration_period_ratio": 0.3956183663564812,
+        "depth": 6.486184600472832e-05
+      },
+      "classification": {
+        "predicted_class": "transit",
+        "confidence": 0.6336101190476191,
+        "class_probabilities": {
+          "blend": 0.034773809523809526,
+          "eclipsing_binary": 0.057136904761904764,
+          "other": 0.2744791666666668,
+          "transit": 0.6336101190476191
+        }
+      },
+      "refined_parameters": {
+        "period_days": 1.053203546903127,
+        "period_err_days": 0.002773624266291227,
+        "t0_bjd_offset": 0.18269191529344997,
+        "t0_err_days": 0.07110482623237052,
+        "duration_hours": 9.570236641746167,
+        "duration_err_hours": 3.799713788423418,
+        "depth_ppm": 9.907557569951084,
+        "depth_err_ppm": 32.638288246025866,
+        "depth_fraction": 9.907557569951085e-06,
+        "n_transits_observed": 25.63607013989998
+      }
+    }
+  ]
+}

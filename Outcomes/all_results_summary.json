@@ -1,0 +1,41 @@
+{
+  "transit": {
+    "n_candidates": 2,
+    "top_candidate": {
+      "predicted_class": "transit",
+      "confidence": 0.6048154761904763,
+      "class_probabilities": {
+        "blend": 0.0991051791850761,
+        "eclipsing_binary": 0.10975196367206676,
+        "other": 0.18632738095238097,
+        "transit": 0.6048154761904763
+      }
+    }
+  },
+  "eclipsing_binary": {
+    "n_candidates": 3,
+    "top_candidate": {
+      "predicted_class": "eclipsing_binary",
+      "confidence": 0.6530416666666667,
+      "class_probabilities": {
+        "blend": 0.0008333333333333333,
+        "eclipsing_binary": 0.6530416666666667,
+        "other": 0.036145833333333335,
+        "transit": 0.3099791666666667
+      }
+    }
+  },
+  "other_variable": {
+    "n_candidates": 1,
+    "top_candidate": {
+      "predicted_class": "other",
+      "confidence": 0.5500262660053604,
+      "class_probabilities": {
+        "blend": 0.4488819628801658,
+        "eclipsing_binary": 0.00011805070557985195,
+        "other": 0.5500262660053604,
+        "transit": 0.0009737204088937623
+      }
+    }
+  }
+}
